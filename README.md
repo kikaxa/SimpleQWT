@@ -15,13 +15,13 @@ Initial version as used by NSpec scientific software.
 # Q/A:
 - Why not QWT 6.1?
 
-It is slower and uses more memory according to my tests (mostly Plot/Slider).
-Quick review didn't reveal the single culprit for that change.
+It is slower and uses more memory according to my tests (mostly Plot/Slider).  
+Quick review didn't reveal the single culprit for that change.  
 
 - Why not merge it with regular QWT or fix full version?
 
-Full QWT is much larger than just core, i don't have enough time for that.
-Some changes are very invasive and not possible there at all.
-Some simplifications are only possible after removing more elaborate functions.
-I hope most minor fixes and legacy cleanups can be ported back to original version, 
-but that's a lot of work too due to 6.1 changes.
+Full QWT is much larger than just core, i don't have enough time for that.  
+Some changes are very invasive and not possible there at all.  
+Some simplifications are only possible after removing more elaborate functions.  
+I hope most minor fixes and legacy cleanups can be ported back to original version,  
+but that's a lot of work too due to 6.1 changes.  
